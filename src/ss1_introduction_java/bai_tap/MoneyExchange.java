@@ -1,6 +1,5 @@
 package ss1_introduction_java.bai_tap;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class MoneyExchange {
