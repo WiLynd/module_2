@@ -24,6 +24,6 @@ public class SumArrayDiagonal {
         for (int i = 0; i < n; i++) {
             sum+=arr[i][i];
             }
-        System.out.print("Sum: " + sum);
+        System.out.print("Sum Diagonal: " + sum);
     }
 }
