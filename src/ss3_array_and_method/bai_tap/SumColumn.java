@@ -2,7 +2,7 @@ package ss3_array_and_method.bai_tap;
 
 import java.util.Scanner;
 
-public class MaxArray {
+public class SumColumn {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Input array row: ");
@@ -22,17 +22,12 @@ public class MaxArray {
             }
             System.out.println();
         }
-        System.out.println("Max in Array: " + max(arr, n, m));
-    }
-
-    public static int max(int[][] arr, int n, int m) {
-        int max = 0;
+        System.out.print("Enter column: ");
+        int column = input.nextInt();
+        int sum = 0;
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                if (arr[i][j] > max)
-                    max = arr[i][j];
-            }
+            sum+=arr[i][column];
         }
-        return max;
+        System.out.println("Sum: " + sum);
     }
 }
