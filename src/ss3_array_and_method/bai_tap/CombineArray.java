@@ -19,11 +19,12 @@ public class CombineArray {
             System.out.print("Enter element " + (i + 1) + ": ");
             arr2[i] = input.nextInt();
         }
-        int [] arr3 = new int[arr1.length + arr2.length];
+        int [] arr3;
         arr3 = combineArray(arr1, arr2);
         System.out.println("After: ");
-        for (int i = 0; i < arr3.length; i++)
+        for (int i = 0; i < arr3.length; i++) {
             System.out.print(arr3[i] + " ");
+        }
     }
 
     public static int [] combineArray(int [] arr1, int [] arr2) {
