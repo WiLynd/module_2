@@ -2,7 +2,7 @@ package ss3_array_and_method.bai_tap;
 
 import java.util.Scanner;
 
-public class CountChar {
+public class CharCount {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String str;

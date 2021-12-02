@@ -2,7 +2,7 @@ package ss3_array_and_method.bai_tap;
 
 import java.util.Scanner;
 
-public class InputElement {
+public class ElementInput {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Input array length: ");

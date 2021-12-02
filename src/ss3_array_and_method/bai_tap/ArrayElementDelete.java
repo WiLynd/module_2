@@ -2,7 +2,7 @@ package ss3_array_and_method.bai_tap;
 
 import java.util.Scanner;
 
-public class DeleteElementInArray {
+public class ArrayElementDelete {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Input array length: ");
