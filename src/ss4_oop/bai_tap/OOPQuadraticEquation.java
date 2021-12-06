@@ -2,7 +2,7 @@ package ss4_oop.bai_tap;
 
 import java.util.Scanner;
 
-public class InputQuadraticEquation {
+public class OOPQuadraticEquation {
     public static void main(String[] args) {
         double a,b,c;
         System.out.print("Enter a,b,c: ");
