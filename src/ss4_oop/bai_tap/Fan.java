@@ -70,12 +70,12 @@ public class Fan {
         String state = "";
         if (this.isOn()) {
             state += ("Fan is on\n");
-            state += ("Speed: " + this.speed + "\n");
+            state += ("Speed: "+ this.speed +"\n");
         } else {
             state += ("Fan is off\n");
         }
-        state += ("Color: " + this.color + "\n");
-        state += ("Radius: " + this.radius + "\n");
+        state += ("Color: "+ this.color +"\n");
+        state += ("Radius: "+ this.radius +"\n");
         return state;
     }
 }

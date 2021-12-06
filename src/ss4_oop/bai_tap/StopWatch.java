@@ -6,7 +6,7 @@ public class StopWatch {
     private LocalTime startTime, endTime;
 
     public StopWatch() {
-        startTime=LocalTime.now();
+        startTime = LocalTime.now();
     }
 
     public StopWatch(LocalTime startTime, LocalTime endTime) {
@@ -23,11 +23,11 @@ public class StopWatch {
     }
 
     public void start(){
-        startTime=LocalTime.now();
+        startTime = LocalTime.now();
     }
 
     public void stop(){
-        endTime=LocalTime.now();
+        endTime = LocalTime.now();
     }
 
     public int getElapsedTime(){

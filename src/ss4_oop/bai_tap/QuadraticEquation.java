@@ -29,12 +29,12 @@ public class QuadraticEquation {
     }
 
     public double getRoot1(){
-        if(this.getDiscriminant()<0) return 0;
+        if (this.getDiscriminant() < 0) return 0;
         return ((-b+Math.sqrt(this.getDiscriminant()))/(2*a));
     }
 
     public double getRoot2(){
-        if(this.getDiscriminant()<0) return 0;
+        if (this.getDiscriminant() < 0) return 0;
         return ((-b-Math.sqrt(this.getDiscriminant()))/(2*a));
     }
 }
