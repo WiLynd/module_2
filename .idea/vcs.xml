@@ -3,5 +3,11 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apj-calculator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/ss8_clean_code/thuc_hanh" vcs="" />
+    <mapping directory="$PROJECT_DIR$/src/ss8_clean_code/thuc_hanh/refactoring_1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/ss8_clean_code/thuc_hanh/refactoring_1/apj-calculator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/ss8_clean_code/thuc_hanh/refactoring_2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/ss8_clean_code/thuc_hanh/refactoring_2/apj-fizzbuzz" vcs="Git" />
   </component>
 </project>
