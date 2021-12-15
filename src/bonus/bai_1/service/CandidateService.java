@@ -1,5 +1,6 @@
-package BaiLamThem.bai1.service;
-import BaiLamThem.bai1.model.Candidate;
+package bonus.bai_1.service;
+
+import bonus.bai_1.model.Candidate;
 
 import java.util.Scanner;
 public class CandidateService implements iCandidate {

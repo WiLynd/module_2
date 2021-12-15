@@ -1,7 +1,9 @@
-package BaiLamThem.bai1.controller;
-import BaiLamThem.bai1.service.CandidateService;
+package bonus.bai_1.controller;
+
+import bonus.bai_1.service.CandidateService;
 
 import java.util.Scanner;
+
 public class CandidateTest {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);

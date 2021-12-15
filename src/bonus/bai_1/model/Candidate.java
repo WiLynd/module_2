@@ -1,12 +1,12 @@
-package BaiLamThem.bai1.model;
+package bonus.bai_1.model;
 
 public class Candidate {
-    private String candidateid;
-    private String namestudent;
-    private String dateofbirth;
-    private double mathpoint;
-    private double literaturepoint ;
-    private double englishpoint;
+    private String candidateId;
+    private String nameStudent;
+    private String dateOfBirth;
+    private double mathPoint;
+    private double literaturePoint;
+    private double englishPoint;
 
 
     public Candidate()
@@ -14,12 +14,12 @@ public class Candidate {
 
     public Candidate(String studentid, String namestudent, String dateofbirth, double mathpoint, double literaturepoint, double englishpoint)
     {
-        this.candidateid=studentid;
-        this.namestudent=namestudent;
-        this.dateofbirth=dateofbirth;
-        this.mathpoint=mathpoint;
-        this.literaturepoint=literaturepoint;
-        this.englishpoint=englishpoint;
+        this.candidateId =studentid;
+        this.nameStudent =namestudent;
+        this.dateOfBirth =dateofbirth;
+        this.mathPoint =mathpoint;
+        this.literaturePoint =literaturepoint;
+        this.englishPoint =englishpoint;
     }
 
     public Candidate(String studentId, String studentName, String studentBirth, String studentGender, String studentClassName, String studentCourse) {
@@ -28,69 +28,65 @@ public class Candidate {
     @Override
     public String toString() {
         return "Candidate{" +
-                "studentid='" + candidateid + '\'' +
-                ", namestudent='" + namestudent + '\'' +
-                ", dateofbirth='" + dateofbirth + '\'' +
-                ", mathpoint=" + mathpoint +
-                ", literaturepoint=" + literaturepoint +
-                ", englishpoint=" + englishpoint +
+                "studentId='" + candidateId + '\'' +
+                ", nameStudent='" + nameStudent + '\'' +
+                ", dateOfBirth='" + dateOfBirth + '\'' +
+                ", mathPoint=" + mathPoint +
+                ", literaturePoint=" + literaturePoint +
+                ", englishPoint=" + englishPoint +
                 '}';
     }
 
     public double pointSum()
     {
-        return this.mathpoint+this.englishpoint+this.literaturepoint;
+        return this.mathPoint +this.englishPoint +this.literaturePoint;
     }
 
-
-
-    public String getStudentid() {
-        return candidateid;
+    public String getStudentId() {
+        return candidateId;
     }
 
-    public void setStudentid(String studentid) {
-        this.candidateid = studentid;
+    public void setStudentId(String studentId) {
+        this.candidateId = studentId;
     }
 
-
-
-    public String getNamestudent() {
-        return namestudent;
+    public String getNameStudent() {
+        return nameStudent;
     }
 
-    public void setNamestudent(String namestudent) {
-        this.namestudent = namestudent;
+    public void setNameStudent(String nameStudent) {
+        this.nameStudent = nameStudent;
     }
 
-    public String getDateofbirth() {
-        return dateofbirth;
+    public String getDateOfBirth() {
+        return dateOfBirth;
     }
 
-    public void setDateofbirth(String dateofbirth) {
-        this.dateofbirth = dateofbirth;
+    public void setDateOfBirth(String dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
     }
 
-    public double getMathpoint() {
-        return mathpoint;
+    public double getMathPoint() {
+        return mathPoint;
     }
 
-    public void setMathpoint(double mathpoint) {
-        this.mathpoint = mathpoint;
+    public void setMathPoint(double mathPoint) {
+        this.mathPoint = mathPoint;
     }
 
-    public double getLiteraturepoint() {
-        return literaturepoint;
+    public double getLiteraturePoint() {
+        return literaturePoint;
     }
 
-    public void setLiteraturepoint(double literaturepoint) {
-        this.literaturepoint = literaturepoint;
+    public void setLiteraturePoint(double literaturePoint) {
+        this.literaturePoint = literaturePoint;
     }
 
-    public double getEnglishpoint() {
-        return englishpoint;
+    public double getEnglishPoint() {
+        return englishPoint;
     }
 
-    public void setEnglishpoint(double englishpoint) {
-        this.englishpoint = englishpoint;
+    public void setEnglishPoint(double englishPoint) {
+        this.englishPoint = englishPoint;
     }
 }
