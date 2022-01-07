@@ -1,6 +1,5 @@
 package apj_exam_c1021g1_hoangdangquocphu.service.impl;
 
-import apj_exam_c1021g1_hoangdangquocphu.model.ExportProduct;
 import apj_exam_c1021g1_hoangdangquocphu.model.ImportProduct;
 import apj_exam_c1021g1_hoangdangquocphu.service.ImportProductService;
 
@@ -108,7 +107,7 @@ public class ImportProductImpl implements ImportProductService {
             }
         }
     }
-    public static void writeFileProduct(String filepath, List<ExportProduct> importProductList) {
+    public static void writeFileProduct(String filepath, List<ImportProduct> importProductList) {
         try {
             FileWriter fileWriter = new FileWriter(filepath);
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
