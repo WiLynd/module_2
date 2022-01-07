@@ -72,6 +72,7 @@ public class ImportProductImpl implements ImportProductService {
             Scanner sc = new Scanner(System.in);
             System.out.println("1:Search by code product");
             System.out.println("2.Search by name product");
+            System.out.println("3.Exit");
             int choose = sc.nextInt();
             switch (choose){
                 case 1:
