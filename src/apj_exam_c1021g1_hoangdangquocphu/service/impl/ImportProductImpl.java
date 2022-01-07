@@ -69,11 +69,11 @@ public class ImportProductImpl implements ImportProductService {
     @Override
     public void search() {
         do {
-            Scanner sc = new Scanner(System.in);
+            Scanner scanner = new Scanner(System.in);
             System.out.println("1:Search by code product");
             System.out.println("2.Search by name product");
             System.out.println("3.Exit");
-            int choose = sc.nextInt();
+            int choose = scanner.nextInt();
             switch (choose){
                 case 1:
                     searchByCode();
@@ -89,8 +89,8 @@ public class ImportProductImpl implements ImportProductService {
     }
     public static void searchByCode(){
         System.out.println("Input code product you want to search");
-        Scanner sc = new Scanner(System.in);
-        String search = sc.nextLine();
+        Scanner scanner = new Scanner(System.in);
+        String search = scanner.nextLine();
         for(int i = 0 ; i < importProductList.size() ; i++){
             if(search.equals(importProductList.get(i).getProductCode())){
                 importProductList.get(i).toString();
@@ -100,8 +100,8 @@ public class ImportProductImpl implements ImportProductService {
 
     public static void searchByName(){
         System.out.println("Input name product you want to search");
-        Scanner sc = new Scanner(System.in);
-        String search = sc.nextLine();
+        Scanner scanner = new Scanner(System.in);
+        String search = scanner.nextLine();
         for (int i = 0 ; i < importProductList.size() ; i++){
             if(search.equals(importProductList.get(i).getProductName())){
                 importProductList.get(i).toString();

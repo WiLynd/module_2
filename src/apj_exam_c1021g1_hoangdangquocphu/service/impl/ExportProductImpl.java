@@ -88,8 +88,8 @@ public class ExportProductImpl implements ExportProductService {
 
     public static void searchByCode() {
         System.out.println("Input code product you want to search: ");
-        Scanner sc = new Scanner(System.in);
-        String search = sc.nextLine();
+        Scanner scanner = new Scanner(System.in);
+        String search = scanner.nextLine();
         for (int i = 0; i < exportProductList.size(); i++) {
             if (search.equals(exportProductList.get(i).getProductCode())) {
                 System.out.println(exportProductList.get(i).toString());
@@ -99,8 +99,8 @@ public class ExportProductImpl implements ExportProductService {
 
     public static void searchByName() {
         System.out.println("Input name product you want to search: ");
-        Scanner sc = new Scanner(System.in);
-        String search = sc.nextLine();
+        Scanner scanner = new Scanner(System.in);
+        String search = scanner.nextLine();
         for (int i = 0; i < exportProductList.size(); i++) {
             if (search.equals(exportProductList.get(i).getProductName())) {
                 System.out.println(exportProductList.get(i).toString());
