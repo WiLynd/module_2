@@ -46,7 +46,7 @@ public class ExportProductImpl implements ExportProductService {
         String codeForDelete = sc.nextLine();
         for (int i = 0; i < exportProductList.size(); i++) {
             if (codeForDelete.equals(exportProductList.get(i).getProductCode())) {
-                System.out.println("Do you want delete this product");
+                System.out.println("Do you want delete this product? (Yes/No)");
                 String option = sc.nextLine();
                 if (option.equals("Yes")) {
                     exportProductList.remove(i);
@@ -91,7 +91,7 @@ public class ExportProductImpl implements ExportProductService {
         String codeForSearch = sc.nextLine();
         for (int i = 0; i < exportProductList.size(); i++) {
             if (codeForSearch.equals(exportProductList.get(i).getProductCode())) {
-                exportProductList.get(i).toString();
+                System.out.println(exportProductList.get(i).toString());
             }
         }
     }
@@ -102,7 +102,7 @@ public class ExportProductImpl implements ExportProductService {
         String nameForSearch = sc.nextLine();
         for (int i = 0; i < exportProductList.size(); i++) {
             if (nameForSearch.equals(exportProductList.get(i).getProductName())) {
-                exportProductList.get(i).toString();
+                System.out.println(exportProductList.get(i).toString());
             }
         }
     }

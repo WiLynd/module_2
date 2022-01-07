@@ -48,7 +48,7 @@ public class ImportProductImpl implements ImportProductService {
         String codeForDelete = sc.nextLine();
         for(int i = 0 ; i < importProductList.size() ; i++){
             if(codeForDelete.equals(importProductList.get(i).getProductCode())){
-                System.out.println("Do you want delete this product");
+                System.out.println("Do you want delete this product? (Yes/No)");
                 String option = sc.nextLine();
                 if(option.equals("Yes")){
                     importProductList.remove(i);
