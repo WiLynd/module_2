@@ -90,9 +90,9 @@ public class ImportProductImpl implements ImportProductService {
     public static void searchByCode(){
         System.out.println("Input code product you want to search");
         Scanner sc = new Scanner(System.in);
-        String codeForSearch = sc.nextLine();
+        String search = sc.nextLine();
         for(int i = 0 ; i < importProductList.size() ; i++){
-            if(codeForSearch.equals(importProductList.get(i).getProductCode())){
+            if(search.equals(importProductList.get(i).getProductCode())){
                 importProductList.get(i).toString();
             }
         }
@@ -101,9 +101,9 @@ public class ImportProductImpl implements ImportProductService {
     public static void searchByName(){
         System.out.println("Input name product you want to search");
         Scanner sc = new Scanner(System.in);
-        String nameForSearch = sc.nextLine();
-        for(int i = 0 ; i < importProductList.size() ; i++){
-            if(nameForSearch.equals(importProductList.get(i).getProductName())){
+        String search = sc.nextLine();
+        for (int i = 0 ; i < importProductList.size() ; i++){
+            if(search.equals(importProductList.get(i).getProductName())){
                 importProductList.get(i).toString();
             }
         }

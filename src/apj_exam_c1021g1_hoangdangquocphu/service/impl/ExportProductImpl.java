@@ -89,9 +89,9 @@ public class ExportProductImpl implements ExportProductService {
     public static void searchByCode() {
         System.out.println("Input code product you want to search: ");
         Scanner sc = new Scanner(System.in);
-        String codeForSearch = sc.nextLine();
+        String search = sc.nextLine();
         for (int i = 0; i < exportProductList.size(); i++) {
-            if (codeForSearch.equals(exportProductList.get(i).getProductCode())) {
+            if (search.equals(exportProductList.get(i).getProductCode())) {
                 System.out.println(exportProductList.get(i).toString());
             }
         }
@@ -100,9 +100,9 @@ public class ExportProductImpl implements ExportProductService {
     public static void searchByName() {
         System.out.println("Input name product you want to search: ");
         Scanner sc = new Scanner(System.in);
-        String nameForSearch = sc.nextLine();
+        String search = sc.nextLine();
         for (int i = 0; i < exportProductList.size(); i++) {
-            if (nameForSearch.equals(exportProductList.get(i).getProductName())) {
+            if (search.equals(exportProductList.get(i).getProductName())) {
                 System.out.println(exportProductList.get(i).toString());
             }
         }
